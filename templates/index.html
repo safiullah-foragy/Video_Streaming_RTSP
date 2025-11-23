@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming - Home</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-play-circle"></i>
+                <h1>Video Stream</h1>
+            </div>
+            <nav class="nav">
+                <a href="/" class="active">Home</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h2>Welcome to Video Streaming</h2>
+                <p>Browse and watch videos from your library</p>
+            </section>
+
+            <!-- Video Grid -->
+            <section class="video-section">
+                <div class="section-header">
+                    <h3>Video Library</h3>
+                    <span id="video-count" class="count-badge">Loading...</span>
+                </div>
+                
+                <div id="video-grid" class="video-grid">
+                    <!-- Videos will be loaded here dynamically -->
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading videos...</p>
+                    </div>
+                </div>
+
+                <div id="no-videos" class="no-videos" style="display: none;">
+                    <i class="fas fa-video-slash"></i>
+                    <h3>No Videos Found</h3>
+                    <p>Add video files to the <code>assets/videos</code> folder to get started</p>
+                    <div class="supported-formats">
+                        <strong>Supported formats:</strong>
+                        <span class="format-tag">MP4</span>
+                        <span class="format-tag">AVI</span>
+                        <span class="format-tag">MOV</span>
+                        <span class="format-tag">MKV</span>
+                        <span class="format-tag">WebM</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Video Streaming Server. Built with Flask & HTML5 Video.</p>
+        </div>
+    </footer>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
