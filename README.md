@@ -8,6 +8,14 @@ A comprehensive video streaming solution featuring **YouTube-style web interface
 
 ---
 
+## 🌐 Live Demo
+
+**🚀 Try it now:** [https://video-streaming-rtsp.onrender.com](https://video-streaming-rtsp.onrender.com)
+
+> **Note**: Free tier may take 30-60 seconds to wake up after inactivity. Once loaded, streaming is instant!
+
+---
+
 ## ✨ Features
 
 ### 🌐 Web Interface (Featured)
